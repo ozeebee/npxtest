@@ -11,6 +11,10 @@
     "types.d.ts"
   ],
   "scripts": {
+    "clean": "rimraf lib",
+    "compile": "tsc",
+    "watch": "tsc -w",
+    "__build": "npm run clean && npm run compile"
   },
   "dependencies": {
     "adm-zip": "0.5.5",
