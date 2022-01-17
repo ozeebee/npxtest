@@ -3,11 +3,6 @@
   "version": "0.8.1",
   "description": "A simple yet powerful template-based Scaffolding tools.",
   "license": "MIT",
-  "author": {
-    "name": "zce",
-    "email": "w@zce.me",
-    "url": "https://zce.me"
-  },
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "bin": "bin/caz.js",
