@@ -1,7 +1,33 @@
 {
   "name": "caz",
   "version": "0.8.1",
-  "description": "Test npx",
+  "description": "A simple yet powerful template-based Scaffolding tools.",
+  "keywords": [
+    "productivity",
+    "scaffolding",
+    "boilerplate",
+    "generator",
+    "starter-kit",
+    "templates",
+    "template",
+    "caz",
+    "cli",
+    "zce"
+  ],
+  "homepage": "https://github.com/zce/caz#readme",
+  "bugs": {
+    "url": "https://github.com/zce/caz/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zce/caz.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "zce",
+    "email": "w@zce.me",
+    "url": "https://zce.me"
+  },
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "bin": "bin/caz.js",
@@ -10,18 +36,11 @@
     "types.d.ts"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean": "rimraf lib",
+    "compile": "tsc",
+    "watch": "tsc -w",
+    "build": "npm run clean && npm run compile"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ozeebee/npxtest.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ozeebee/npxtest/issues"
-  },
-  "homepage": "https://github.com/ozeebee/npxtest#readme",
   "dependencies": {
     "adm-zip": "0.5.5",
     "cac": "^6.7.3",
@@ -49,5 +68,5 @@
   },
   "engines": {
     "node": ">=12.10"
-  }  
+  }
 }
