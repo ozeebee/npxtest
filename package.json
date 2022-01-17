@@ -2,8 +2,13 @@
   "name": "npxtest",
   "version": "1.0.0",
   "description": "Test npx",
-  "main": "index.js",
-  "bin": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "bin": "bin/caz.js",
+  "files": [
+    "lib",
+    "types.d.ts"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
