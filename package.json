@@ -2,18 +2,6 @@
   "name": "caz",
   "version": "0.8.1",
   "description": "A simple yet powerful template-based Scaffolding tools.",
-  "keywords": [
-    "productivity",
-    "scaffolding",
-    "boilerplate",
-    "generator",
-    "starter-kit",
-    "templates",
-    "template",
-    "caz",
-    "cli",
-    "zce"
-  ],
   "license": "MIT",
   "author": {
     "name": "zce",
