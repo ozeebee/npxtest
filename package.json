@@ -14,14 +14,6 @@
     "cli",
     "zce"
   ],
-  "homepage": "https://github.com/zce/caz#readme",
-  "bugs": {
-    "url": "https://github.com/zce/caz/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zce/caz.git"
-  },
   "license": "MIT",
   "author": {
     "name": "zce",
